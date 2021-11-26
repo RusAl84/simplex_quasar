@@ -162,7 +162,7 @@ export default {
   },
   methods:{
   btn_clic (){
-  alert('Ilya s\'el ezhika')
+  alert('Ilya ne s\'el ezhika')
   },
   },
 }
