@@ -127,8 +127,14 @@
         </div>
       </div>
     </div>
-
-
+    <q-btn
+        size="22px"
+        class="q-px-xl q-py-xs"
+        color="purple"
+        label="Решить задачу"
+        v-on:click=this.btn_clic()
+    />
+    <div class="text-h6">Решение:  {{solved}}</div>
 
 <!--    <img alt="Vue logo" src="../assets/logo.png">-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
@@ -151,7 +157,13 @@ export default {
       rests: [[7, 17, 17, 242],
              [16, 5, 1, 329],
              [18, 3, 3, 325]],
+      solved:'',
     }
+  },
+  methods:{
+  btn_clic (){
+  alert('Ilya s\'el ezhika')
+  },
   },
 }
 </script>
